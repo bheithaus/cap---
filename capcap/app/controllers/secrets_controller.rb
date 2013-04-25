@@ -1,10 +1,9 @@
 class SecretsController < ApplicationController
-  respond_to :json
 
   def index
     @secrets = Secret.all
+    render :index
 
-    render json: @secrets
   end
 
   def create

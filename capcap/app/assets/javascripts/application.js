@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require backbone
+//= require backbone-rails
 //= require bootstrap
 //
 //= require capcap
