@@ -13,7 +13,7 @@ class StaticPagesController < ApplicationController
     else
       cap.update_attributes(secret: word)
     end
-    @unified_word = obfusc(word, 6)
+    @unified_word = obfusc(word, 1)
   end
 
   def match_secret

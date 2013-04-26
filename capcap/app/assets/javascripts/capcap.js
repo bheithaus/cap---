@@ -1,9 +1,9 @@
 window.CC = {
-	Models = {},
-	Collections = {},
-	Routers ={},
-	Views = {},
-	Store = {},
+	Models: {},
+	Collections: {},
+	Routers: {},
+	Views: {},
+	Store: {},
 
 	init: function(rootEl) {
 		this.$rootEl = $(rootEl);
